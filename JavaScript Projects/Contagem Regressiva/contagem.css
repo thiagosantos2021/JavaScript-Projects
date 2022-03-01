@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('formatura.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.title{
+    font-size: calc(1px + 2vw);
+}
+
+.title p{
+    font-size: calc(10px + 1vw);
+}
+
+.countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.countdown h1{
+    font-size: calc(5px + 5vw);
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.button{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid aquamarine;
+}
+
+.button:hover{
+    background-color: black;
+    color: aquamarine;
+}

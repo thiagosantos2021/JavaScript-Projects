@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Contador JavaScript</title>
+    </head>
+    <body>
+        <h1>Meu primeiro Contador</h1>
+       <div id="counter">
+           <button name="subtrair" onclick="decrement()">-</button>
+           <span id="currentNumber">0</span>
+           <button name="adicionar" onclick="increment()">+</button>
+       </div> 
+    </body>
+    <script src="index.js"></script>
+</html>
+
+<!--Caso você queira ir além, aqui estão algumas dicas de coisas para tentar:
+
+Tente implementar os eventos usando o método addEventListener.
+Crie condicionais que desabilitam o botão de incrementar ou decrementar quando count chegar a um determinado valor (ex.: 0 <= count =< 10).
+Mude a cor do texto em CURRENT_NUMBER para vermelho quando o número for negativo.-->

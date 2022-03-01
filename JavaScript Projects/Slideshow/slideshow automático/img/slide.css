@@ -1,0 +1,12 @@
+.box {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.box-image img{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+}
